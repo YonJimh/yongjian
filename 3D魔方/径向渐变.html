@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8" />
+<title>radial-gradient()_CSS参考手册_web前端开发参考手册系列</title>
+<meta name="author" content="Joy Du(飘零雾雨), dooyoe@gmail.com, www.doyoe.com" />
+<style>
+div {
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	border: 1px solid #ddd;
+}
+.test {
+	background: radial-gradient(circle at center, #f00, #ff0, #080);
+}
+.test2 {
+	background: radial-gradient(circle closest-side, #f00, #ff0, #080);  /* farthest-side半径长度里圆心最远的边 */
+}
+.test3 {
+	background: radial-gradient(farthest-side, #f00 20%, #ff0 50%, #080 80%);  /*  closest-side半径长度里圆心最近的边 */
+	}
+.test4 {
+	background: radial-gradient(at top right, #f00, #ff0, #080);
+}
+.test5 {
+	background: radial-gradient(farthest-side at top right, #f00, #ff0, #080);
+}
+.test6 {
+	background:
+				radial-gradient(farthest-side at top right, #f00, #ff0, #080, transparent),
+				radial-gradient(60px at top left, #f00, #ff0, #080);
+}
+</style>
+</head>
+<body>
+<div class="test"></div>
+<div class="test2"></div>
+<div class="test3"></div>
+<div class="test4"></div>
+<div class="test5"></div>
+<div class="test6"></div>
+</body>
+</html>
