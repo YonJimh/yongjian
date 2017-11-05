@@ -1,12 +1,20 @@
 git clone https://github.com/yongjian-h/yongjian.git
 
+
 git status 
 
-git add date.txt	//½«ÎÄ¼ş´æÈë»º´æÇø
 
-git reset HEAD date.txt    //½«ÎÄ¼ş³·³ö»º´æÇø
+git add date.txt	//
+git reset HEAD date.txt    //
 
-git commit 			//Ìá½»µ½±¾µØ¹¤×÷Çø »á³öÏÖÒ»¸öĞŞ¸ÄµÄÆÀÂÛ£¬Ğ´ÎªÊ²Ã´ÒªĞŞ¸Ä
-				//nothing to commit (working directory clean)
+git commit 			//ä¼ åˆ°æœ¬åœ°nothing to commit (working directory clean)
 
-git push			//ÉÏ´«µ½github
+
+git push			//ä¸Šä¼ åˆ°ç½‘ç«™
+git pull                        //è§£å†³å†²çª
+
+
+
+
+
+.gitignore         //å†…å®¹æ˜¯è¡¨ç¤ºå¿½ç•¥æäº¤çš„æ–‡ä»¶å
